@@ -1,3 +1,5 @@
 node_modules
-node_modules
+.idea
+.VS_Code
+package-lock.json
 .DS_Store
