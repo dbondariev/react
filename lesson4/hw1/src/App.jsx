@@ -1,12 +1,10 @@
 import React from 'react';
 import Clock from './Clock';
 
-export default props => {
-  return (
-    <>
-      <Clock location="New York" offset={-5} />
-      <Clock location="London" offset={0} />
-      <Clock location="Kyiv" offset={2} />
-    </>
-  );
-};
+export default props => (
+  <>
+    <Clock location="New York" offset={-4} />
+    <Clock location="London" offset={1} />
+    <Clock location="Kyiv" offset={3} />
+  </>
+);
