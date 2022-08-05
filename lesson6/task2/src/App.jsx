@@ -1,10 +1,10 @@
 import React from 'react';
 import Mailbox from './Mailbox';
 
-export default function Emails() {
+export default props => {
   return (
     <>
-      <Mailbox unreadMessages={[9]} />
+      <Mailbox unreadMessages={[]} />
     </>
   );
-}
+};
