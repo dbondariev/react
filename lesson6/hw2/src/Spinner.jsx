@@ -7,12 +7,10 @@ class Spinner extends React.Component {
       size: Math.sqrt(this.props.size / 2),
     };
   }
+
   render() {
     return (
-      <span
-        className="spinner"
-        style={{ height: this.state.size, width: this.state.size }}
-      ></span>
+      <span className="spinner" style={{ height: this.state.size, width: this.state.size }}></span>
     );
   }
 }

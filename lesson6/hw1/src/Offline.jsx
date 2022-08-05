@@ -1,10 +1,6 @@
 import React from 'react';
 
 export default class Offline extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="status">

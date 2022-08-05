@@ -1,10 +1,10 @@
 import React from 'react';
 import Status from './Status';
 
-export default props => {
+export default function status() {
   return (
     <>
       <Status />
     </>
   );
-};
+}

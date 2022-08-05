@@ -1,10 +1,10 @@
 import React from 'react';
 import Page from './Page';
 
-export default props => {
+export default function buttons() {
   return (
     <>
       <Page />
     </>
   );
-};
+}

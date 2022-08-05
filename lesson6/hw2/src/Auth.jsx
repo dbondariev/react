@@ -22,12 +22,15 @@ export default class Auth extends React.Component {
     setTimeout(() => this.setState({ isLoggedIn: true }), 2000);
   };
 
+  // eslint-disable-next-line consistent-return
   condition = () => {
     if (!this.state.isLoading && !this.state.isLoggedIn) {
       return <Login onLogin={() => this.loginHandler()} />;
-    } else if (this.state.isLoading) {
+    }
+    if (this.state.isLoading) {
       return <Spinner size={2600} />;
-    } else if (this.state.isLoggedIn) {
+    }
+    if (this.state.isLoggedIn) {
       return <Logout onLogout={this.logoutHandler} />;
     }
   };
