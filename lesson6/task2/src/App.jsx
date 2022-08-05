@@ -4,7 +4,7 @@ import Mailbox from './Mailbox';
 export default function Emails() {
   return (
     <>
-      <Mailbox unreadMessages={[]} />
+      <Mailbox unreadMessages={[9]} />
     </>
   );
 }
