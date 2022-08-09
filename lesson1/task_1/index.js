@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
 // <div class="greeting">Hello, React!</div>
 
 const rootElement = document.querySelector('#root');
