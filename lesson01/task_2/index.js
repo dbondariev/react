@@ -2,6 +2,9 @@
   <div class="greeting__title">Hello, world!</div>
   <div class="greeting__text">I'm learning React</div>
 </div>; */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles.css';
 
 const rootElement = document.querySelector('#root');
 
