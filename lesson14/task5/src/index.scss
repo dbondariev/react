@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 9px;
+  border: 2px solid coral;
+  cursor: pointer;
+}
