@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import Home from './Home';
-import Users from './Users';
+import React from 'react'
+import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
+import Home from './Home'
+import Users from './Users'
 
 const App = () => (
   <div className="page">
@@ -24,6 +24,6 @@ const App = () => (
       </Switch>
     </BrowserRouter>
   </div>
-);
+)
 
-export default App;
+export default App

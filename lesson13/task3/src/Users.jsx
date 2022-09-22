@@ -1,6 +1,6 @@
-import React from 'react';
-import { Route, Link, Switch } from 'react-router-dom';
-import User from './User.jsx';
+import React from 'react'
+import { Route, Link, Switch } from 'react-router-dom'
+import User from './User.jsx'
 
 const Users = () => (
   <div className="page__content">
@@ -20,6 +20,6 @@ const Users = () => (
       <Route path="/users/:userId" component={User} />
     </Switch>
   </div>
-);
+)
 
-export default Users;
+export default Users

@@ -1,9 +1,11 @@
-const baseUrl = `https://api.github.com/users`;
+const baseUrl = `https://api.github.com/users`
 
 export const getUser = id =>
   fetch(`${baseUrl}/${id}`).then(response => {
     if (response.ok) {
-      return response.json();
+      return response.json()
     }
-    throw new Error('Failed to fetch');
-  });
+    throw new Error('Failed to fetch')
+  })
+
+export default getUser
